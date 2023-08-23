@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="kanji-container">
+      <select id="grade-select">
+        <option value="joyo">Jōyō Kanji</option>
+        <option value="jouyou">Jōyō Kanji (Alias)</option>
+        <option value="jinmeiyo">Jinmeiyō Kanji</option>
+        <option value="jinmeiyou">Jinmeiyō Kanji (Alias)</option>
+        <option value="grade-1">Grade 1 Kyōiku Kanji</option>
+        <option value="grade-2">Grade 2 Kyōiku Kanji</option>
+        <option value="grade-3">Grade 3 Kyōiku Kanji</option>
+        <option value="grade-4">Grade 4 Kyōiku Kanji</option>
+        <option value="grade-5">Grade 5 Kyōiku Kanji</option>
+        <option value="grade-6">Grade 6 Kyōiku Kanji</option>
+        <option value="grade-8">Remaining Jōyō Kanji (Not Kyōiku)</option>
+        <option value="all">All Available Kanji</option>
+      </select>
+      <div id="kanji" style="    font-size: 10em;"></div>
+      <div id="data">
+        <div><strong>Meanings:</strong> <span id="meanings"></span></div>
+        <div><strong>Grade:</strong> <span id="grade"></span></div>
+        <div><strong>Stroke Count:</strong> <span id="stroke-count"></span></div>
+        <div><strong>Kun Readings:</strong> <span id="kun-readings"></span></div>
+        <div><strong>On Readings:</strong> <span id="on-readings"></span></div>
+        <div><strong>Name Readings:</strong> <span id="name-readings"></span></div>
+        <div><strong>JLPT:</strong> <span id="jlpt"></span></div>
+        <div><strong>Unicode:</strong> <span id="unicode"></span></div>
+        <div><strong>Heisig:</strong> <span id="heisig"></span></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
