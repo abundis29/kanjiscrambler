@@ -61,4 +61,4 @@ gradeSelect.addEventListener('change', () => {
 });
 
 updateKanjiDisplay('joyo'); // Start with Jōyō kanji
-setInterval(() => updateKanjiDisplay('joyo'), 10000); // Update every 10 minutes
+setInterval(() => updateKanjiDisplay('joyo'), 60000); // Update every 10 minutes
